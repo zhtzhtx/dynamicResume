@@ -28,14 +28,16 @@ export default {
 * 今天让我为大家演示如何使用html制作一份好看的简历！
 * 闲话不多说，让我们开始吧
 */
+/* 白色背景太单调了，我们来点背景 */
+html {
+  color: rgb(222,222,222); 
+  background: rgb(0,43,54);
+}
 /* 首先给所有元素加上过渡效果 */
 * {
   transition: all .3s;
 }
-/* 白色背景太单调了，我们来点背景 */
-html {
-  color: rgb(222,222,222); background: rgb(0,43,54);
-}
+
 /* 文字离边框太近了 */
 .styleEditor {
   padding: .5em;
